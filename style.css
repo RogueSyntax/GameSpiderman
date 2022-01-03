@@ -1,0 +1,192 @@
+body {
+    background-size: auto;
+    background-color: white;
+    margin: 0;
+    padding: 0;
+}
+
+.post {
+    position: relative;
+    padding-top: 1%;
+    padding-left: 25%;
+}
+
+.venom {
+    position: relative;
+    padding-left: 20%;
+    padding-top: 5%;
+}
+
+.vs {
+    
+    padding-left: 16%;
+}
+
+.reset {
+    font-family: "Itim", cursive;
+    font-family: "Orbitron", sans-serif;
+    background: rgb(242, 59, 59);
+    background: radial-gradient( circle, rgb(0, 79, 248) 40%, rgba(0, 0, 0, 1) 100%);
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    border-radius: 100%;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    left: 80%;
+    display: none;
+    margin-top: 10%;
+}
+
+.close {
+    font-family: "Itim", cursive;
+    font-family: "Orbitron", sans-serif;
+    background: rgb(242, 59, 59);
+    background: radial-gradient(circle, rgb(2, 2, 2) 0%, rgb(0, 0, 0) 92%);
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    border-radius: 100%;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    left: 80%;
+    display: none;
+}
+
+.start {
+    font-family: "Itim", cursive;
+    font-family: "Orbitron", sans-serif;
+    background: rgb(242, 59, 59);
+    background: radial-gradient( circle, rgb(253, 11, 11) 30%, rgba(0, 0, 0, 1) 92%);
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    border-radius: 100%;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    left: 48%;
+    display: inline;
+}
+
+#start {
+    position: relative;
+}
+
+.attack {
+    font-family: "Itim", cursive;
+    font-family: "Orbitron", sans-serif;
+    background: rgb(62, 59, 242);
+    background: radial-gradient( circle, rgb(252, 0, 0) 30%, rgba(42, 42, 42, 1) 100%);
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    border-radius: 100%;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    left: 42%;
+    display: none;
+    margin-top: 5%
+}
+
+.SPattack {
+    font-family: "Itim", cursive;
+    font-family: "Orbitron", sans-serif;
+    background: rgb(179, 0, 255);
+    background: radial-gradient( circle, rgb(101, 3, 143) 50%, rgba(42, 42, 42, 1) 100%);
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    border-radius: 100%;
+    width: 100x;
+    height: 100px;
+    position: relative;
+    left: 46%;
+    display: none;
+    margin-top: 5%;
+}
+
+.container {
+    margin-top: 1%;
+    padding-left: 68%;
+    position: relative;
+    left: 7%;
+}
+
+.container2 {
+    position: relative;
+    padding-left: 65%;
+    margin-top: -4.3%;
+}
+
+.container h2 {
+    font-family: "Itim", cursive;
+    font-family: "Orbitron", sans-serif;
+    color: rgb(253, 6, 6);
+}
+
+.container2 h2 {
+    font-family: "Itim", cursive;
+    font-family: "Orbitron", sans-serif;
+    color: rgb(32, 32, 32);
+}
+
+.healthbar {
+    width: 100%;
+    background-color: rgb(5, 5, 5);
+}
+
+.healthbar_hero {
+    width: 100%;
+    background-color: red;
+}
+
+.end_spider {
+    margin-left: 23%;
+    font-size: 50px;
+    font-family: "Itim", cursive;
+    font-family: "Orbitron", sans-serif;
+    display: none;
+    color: rgb(250, 1, 1);
+}
+
+.end_venom {
+    margin-left: 26%;
+    font-size: 50px;
+    font-family: "Itim", cursive;
+    font-family: "Orbitron", sans-serif;
+    display: none;
+    color: rgb(5, 5, 5);
+}
+
+#bottomRow {
+    font: 50px;
+    font-family: "Itim", cursive;
+    font-family: "Orbitron", sans-serif;
+    display: inline;
+}
+
+.ps {
+    padding-left: 45%;
+}
+
+.ph {
+    padding-left: 38%;
+}
+
+#tbr {
+    padding-left: 33%;
+    color: rgb(245, 168, 1);
+}
+
+#miss {
+    padding-left: 44%;
+    color: rgb(250, 0, 0);
+}
+
+#at:focus {
+    outline: none;
+}
+
+#at:active {
+    border: 3px solid darkgray;
+    color: darkgray;
+}
